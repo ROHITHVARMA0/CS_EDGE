@@ -17,7 +17,7 @@ def pdf_to_text(pdf_path, text_path):
             print(" file is not found")
     except Exception as e:
          print(f"An error occurred: {e}")
-if name ==  "main":
+if __name__ ==  "__main__":
     pdf_path= input("Enter the path to the PDF file: ")
     text_path=input("Enter the path to save the text file: ")
     print(f"Text has been successfully extracted and saved to {text_path}")
