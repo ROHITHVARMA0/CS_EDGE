@@ -19,5 +19,5 @@ def guess_number():
             print(f"Congratulations! You've guessed the number {number} correctly in {attempts} attempts!")
             break
 
-if name == "main":
+if __name__ == "__main__":
     guess_number()
